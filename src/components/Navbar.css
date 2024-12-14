@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2opx;
+  padding: 1.5rem 6rem;
+  cursor: pointer;
+
+  @media only screen and (max-width: 768px) {
+    padding: 1.5rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 1rem;
+  }
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+
+  .navbar-items__item {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .navbar-items__menu {
+    padding-left: 2rem;
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
